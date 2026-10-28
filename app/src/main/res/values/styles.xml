@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Titre d'une section du formulaire (ex. "DONNÉES DE BASE") -->
+    <style name="Labo3.SectionTitle" parent="">
+        <item name="android:textAppearance">?attr/textAppearanceTitleSmall</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Label placé devant un champ de saisie -->
+    <style name="Labo3.Label" parent="">
+        <item name="android:textAppearance">?attr/textAppearanceBodySmall</item>
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+
+</resources>
